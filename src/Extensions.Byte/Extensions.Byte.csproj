@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Company>Reilly Digital</Company>
+		<Description>Extension methods for working with bytes.</Description>
+		<EnableSourceLink>true</EnableSourceLink>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<LangVersion>12.0</LangVersion>
+		<NoPackageAnalysis>true</NoPackageAnalysis>
+		<Nullable>enable</Nullable>
+		<PackageId>ReillyDigital.Extensions.Byte</PackageId>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<PackageProjectUrl>https://gitlab.com/reilly-digital/dotnet/extensions.byte</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageTags>csharp, c#, enumeration</PackageTags>
+		<PackageVersion>0.1.0</PackageVersion>
+		<ProjectGuid>02CF3383-81B7-4798-A7AA-6379299F7FAA</ProjectGuid>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://gitlab.com/reilly-digital/dotnet/extensions.byte.git</RepositoryUrl>
+		<RootNamespace>ReillyDigital.Observables</RootNamespace>
+		<Summary>Extension methods for working with bytes.</Summary>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<TargetFramework>net8.0</TargetFramework>
+		<Title>ReillyDigital.Extensions.Byte - Extension methods for working with bytes.</Title>
+		<Version>0.1.0</Version>
+	</PropertyGroup>
+	<ItemGroup Label="File References">
+		<None Include="README.md">
+			<Pack>True</Pack>
+			<PackagePath>/</PackagePath>
+		</None>
+	</ItemGroup>
+</Project>
