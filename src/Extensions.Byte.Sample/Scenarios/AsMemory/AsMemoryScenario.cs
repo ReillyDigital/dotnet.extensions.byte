@@ -15,5 +15,6 @@ public static class AsMemoryScenario
 	{
 		await Task.Delay(100);
 		Console.WriteLine(System.Text.Encoding.UTF8.GetString(chunk.Span));
+		Console.WriteLine();
 	}
 }

@@ -13,7 +13,7 @@ public static class ChunkScenario
 		foreach (var chunk in bytes.Chunk(32))
 		{
 			Console.WriteLine(System.Text.Encoding.UTF8.GetString(chunk.Span));
-			Console.WriteLine();
 		}
+		Console.WriteLine();
 	}
 }

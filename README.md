@@ -46,13 +46,12 @@ The `Span<byte>` can be split into blocks of values for individual processing.
 foreach (var chunk in bytes.Chunk(32))
 {
 	Console.WriteLine(System.Text.Encoding.UTF8.GetString(chunk.Span));
-	Console.WriteLine();
 }
 ```
 
-The chunks are provided as an enumerator so that large amounts of data can be processesed without copying an entire `Span<T>` to a new `T[]` or `Memory<T>` in full.
+This is shorthand for calling the extension method `ToMemory` and then calling the `Chunk` extension method on that result `Memory<>` reference.
 
-Albeit the `Span<T>` type has a method `Slice` that can be used to process smaller chuncks without a copy; however, this is not feasible in scenarios such as `async` methods which cannot take a `Span<T>` as input or output. Or in such scenarios as functions that need to provide an `IEnumerable<>` for each chunk, but a `Span<T>` cannot be used as a type parameter.
+Albeit the `Span<>` type has a method `Slice` that can be used to process smaller chuncks without a copy; however, this is not feasible in scenarios such as `async` methods which cannot take a `Span<>` as input or output. Or in such scenarios as functions that need to provide an `IEnumerable<>` for the chunks but a `Span<>` cannot be used as a generic type parameter.
 
 ## Links
 

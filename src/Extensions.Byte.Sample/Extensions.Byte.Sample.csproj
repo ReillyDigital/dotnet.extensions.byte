@@ -7,15 +7,12 @@
 		<ProjectGuid>5CE65943-C49A-469F-8D06-5828B08ACD55</ProjectGuid>
 		<RootNamespace>ReillyDigital.Extensions.Byte.Sample</RootNamespace>
 		<TargetFramework>net8.0</TargetFramework>
-		<Version>1.0.0</Version>
+		<Version>0.1.0</Version>
 	</PropertyGroup>
 	<ItemGroup Label="Project References">
 		<ProjectReference Include="../Extensions.Byte/Extensions.Byte.csproj">
 			<Name>ReillyDigital.Extensions.Byte</Name>
 			<Project>{02CF3383-81B7-4798-A7AA-6379299F7FAA}</Project>
 		</ProjectReference>
-	</ItemGroup>
-	<ItemGroup Label="Global Usings">
-		<Using Include="ReillyDigital.Observables" />
 	</ItemGroup>
 </Project>

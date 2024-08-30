@@ -4,7 +4,7 @@ public static partial class ReadOnlyMemoryExtensions
 {
 	/// <summary>
 	/// Extension method to split this <see cref="ReadOnlyMemory{}" /> into blocks of bytes of the specified size. The
-	/// final block will contain the remainder of bytes when not evenly divisible by the provided size.
+	/// final block will contain the remainder of bytes.
 	/// </summary>
 	/// <param name="size">The number of bytes to return in each block.</param>
 	/// <returns>

@@ -4,8 +4,7 @@ public static partial class SpanExtensions
 {
 	/// <summary>
 	/// Extension method to get a copy of this <see cref="Span{}" /> as a <see cref="Memory{}" /> split into blocks of
-	/// bytes of the specified size. The final block will contain the remainder of bytes when not evenly divisible by
-	/// the provided size.
+	/// bytes of the specified size. The final block will contain the remainder of bytes.
 	/// </summary>
 	/// <param name="size">The number of bytes to return in each block.</param>
 	/// <returns>
